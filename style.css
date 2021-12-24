@@ -2,12 +2,14 @@ body
 {
   text-align:center;
   background-repeat:no-repeat;
-  height:5000x
+  height:5000x;
+  font-family: Arial;
 }
 h1
 {
   text-shadow:2px 2px #F8BBD0;
   font-size:30px;
+  font-family: 'Times New Roman';
 }
 #bio{
   padding:20px;
@@ -19,9 +21,25 @@ img{
   width:300px;
 }
 html{
-  background-image: linear-gradient(purple, blue);
+  background-image: linear-gradient(rgb(204, 47, 204), rgb(73, 73, 150));
 }
 
 body{
   font-size: 25px;
+}
+
+.links{
+  float: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+a{
+  font-size: 30px;
+  font-family: Arial;
+  color: rgb(0, 174, 255);
 }
